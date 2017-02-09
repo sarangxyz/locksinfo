@@ -51,6 +51,8 @@ LockCountRaw:      -6
 If you run with flags set to track Locks in your process it can print creation site for the critical section:
 Off course i am not translating symbols but that is not too hard if you want to try. Perhaps i will do it later.
 
+![Appverifier Settings](https://github.com/angeleno/locksinfo/blob/master/appverifier.png)
+
 ```
 Printing 1 acquired locks
 ------------------------------------------------------------------------
