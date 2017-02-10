@@ -19,7 +19,7 @@ static void PrintHelp()
 static void PrintAbout()
 {
     _tprintf(L"\na handy utility to list locks acquired in a process\n");
-    _tprintf(L"author: Sarang Baheti, source: https://github.com/angeleno/locksinfo \n\n");
+    _tprintf(L"Copyright c Sarang Baheti 2017, source: https://github.com/angeleno/locksinfo \n\n");
 }
 
 
