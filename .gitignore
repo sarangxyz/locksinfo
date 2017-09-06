@@ -212,3 +212,5 @@ _Pvt_Extensions/
 ModelManifest.xml
 *.swo
 *.swp
+/locksinfo.VC.db
+/locksinfo.VC.VC.opendb
