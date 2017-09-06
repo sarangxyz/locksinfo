@@ -336,7 +336,8 @@ int wmain(int argc, WCHAR* argv[])
                 else
                     unLockedLocks.push_back(lk);
 
-                if(lk.contentionCount() > 2)
+                //  this needs to be done better or perhaps should be an input
+                if(lk.contentionCount() > 20)
                     contentiousLocks.insert(lk);
 
                 if (!lk.isOwningThreadAlive())
