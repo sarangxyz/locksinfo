@@ -8,7 +8,7 @@ A bit more information here:
 C:\>locksinfo.exe 51204
 
 a handy utility to list locks acquired in a process
-author: Sarang Baheti, source: https://github.com/angeleno/locksinfo
+author: Sarang Baheti, source: https://github.com/sarangxyz/locksinfo
 
 Locks information for process- 51204, testprocess.exe
 Found 63391 locks
@@ -51,7 +51,7 @@ LockCountRaw:      -6
 If you run with flags set to track Locks in your process it can print creation site for the critical section:
 Off course i am not translating symbols but that is not too hard if you want to try. Perhaps i will do it later.
 
-![Appverifier Settings](https://github.com/angeleno/locksinfo/blob/master/appverifier.png)
+![Appverifier Settings](https://github.com/sarangxyz/locksinfo/blob/master/appverifier.png)
 
 ```
 Printing 1 acquired locks
